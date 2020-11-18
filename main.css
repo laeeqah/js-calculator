@@ -1,0 +1,47 @@
+.buttons{
+    height: 20px;
+}
+.txt{
+    border: solid;
+    width: 246px;
+    height:30px;
+    text-align: end;
+
+}
+
+table{
+    border: solid;
+    border-color: aquamarine;
+    background-color: aquamarine;
+}
+
+.sub{
+    background-color: red;
+    padding-right: 38px;  
+
+}
+
+.add {
+    background-color: yellow;
+    padding-right: 34px;
+}
+
+.div{
+    background-color: orange;
+    padding-right: 29px;
+}
+
+.multi{
+    background-color: cadetblue;
+    padding-right: 34px;
+}
+
+.equal{
+    background-color: green;
+    padding-right: 34px;
+}
+
+.clear{
+    background-color: purple;
+    padding-right: 34px;
+}
