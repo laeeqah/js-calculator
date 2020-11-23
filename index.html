@@ -4,39 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="main.css">
-    <script> src="main.js" </script>                                                                                                                                    
+    <link rel="stylesheet" href="main.css">                                                                                                                        
 </head>
 <body>
-    <div class ="calculator">
-            <table>
-                <tr><input class = "txt" type = "text"></tr>
-                <tr><td><button class = "buttons" type = button value = 0 onclick = "cal.value +='0' ">0</button>
-                    <td><button class = "buttons" type = button value = 1 onclick = "cal.value +='1' ">1</button>
-                    <td><button class = "buttons" type = button value = 2 onclick = "cal.value +='2' ">2</button>
-                    <td><button class = "sub" type = button value = "-" onclick = "cal.value +='-' ">-</button>
+    <div id ="calculator">
+         
+    <div class="bb">
+        <table>
+            <tbody class = "block"> 
+                <tr style = "display: block;">
+                    <td><input id = "txt" type = "text"/></td>
                 </tr>
-                    <tr><td><button class = "buttons" type = button value = 3 onclick = "cal.value +='3' ">3</button>
-                    <td><button class = "buttons" type = button value = 4 onclick = "cal.value +='4' ">4</button>
-                    <td><button class = "buttons" type = button value = 5 onclick = "cal.value +='5' ">5</button>
-                    <td><button class = "add" type = button value = "+" onclick = "cal.value +='+' ">+</button>
+                <tr>
+                    <td><button class = "inputs"  value = "8" onclick = "number('7')" >7</button></td>
+                    <td><button class = "inputs"  value = "8" onclick = "number('8')" >8</button></td>
+                    <td><button class = "inputs"   value = "9" onclick = "number('9')" >9</button></td>
+                   
                 </tr>
-                        
-                <tr><td><button class = "buttons" type = button value = 6 onclick = "cal.value +='6' ">6</button>
-                    <td><button class = "buttons" type = button value = 7 onclick = "cal.value +='7' ">7</button>
-                    <td><button class = "buttons" type = button value = 8 onclick = "cal.value +='8' ">8</button>
-                    <td><button class = "div" type = button value = "%" onclick = "cal.value +='%' ">%</button>
+                <tr>
+                    <td><button class = "inputs"  value = "4"  onclick = "number('4')" >4</button></td>
+                    <td><button class = "inputs"  value = "5" onclick = "number('5')" >5</button></td>
+                    <td><button class = "inputs"   value = 6 onclick = "number('6')" >6</button></td>
+                    <td><button class = "operators"  value = "x"  onclick = "number('*')" >x</button></td>
+                    <td><button class = "operators"  value = "/"  onclick = "number('/')" >÷</button></td>
                 </tr>
-
-                <tr><td><button class = "buttons" type = button value = 9 onclick = "cal.value +='9' ">9</button>
-                    <td><button class = "clear" type = button value = C onclick = "cal.value +='C' ">C</button>
-                    <td><button class = "equal" type = button value = "=" onclick = "cal.value +='=' ">=</button>
-                    <td><button class = "multi" type = button value = "*" onclick = "cal.value +='*' ">*</button>
+                <tr>
+                    <td><button class = "inputs"  value = "1" onclick = "number('1')" >1</button></td>
+                    <td><button class = "inputs"   value = "2"    onclick = "number('2')" >2</button></td>
+                    <td><button class = "inputs"  value = "3"  onclick = "number('3')" >3</button></td>
+                    <td><button class = "operators"  value = "-"   onclick = "number('-')" >-</button></td>
+                    <td><button class = "equal"  name = "input" value = "=" onclick = "displayResults()" >=</button></td>
                 </tr>
-                  
-            </table>
+                <tr>
+                    <td><button class = "inputs"   value = "C"   onclick = "clearAll('C')" >C</button></td>
+                    <td><button class = "inputs"   value = "0"  onclick = "number('0')" >0</button></td>
+                    <td><button class = "operators"  value = "."  onclick = "number('.')" >.</button></td>
+                    <td><button class = "operators"  value = "+" onclick = "number('+')" >+</button></td>
+                    <td><button class = "back"  value = "=>" onclick = "backspace()" > ⌫ </button></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-    
-    
+
+            
+        
+    </div>
+    <script src="main.js", type="text/javascript" ></script>   
 </body>
 </html>

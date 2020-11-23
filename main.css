@@ -1,47 +1,60 @@
-.buttons{
-    height: 20px;
-}
-.txt{
-    border: solid;
-    width: 246px;
-    height:30px;
-    text-align: end;
 
-}
-
-table{
-    border: solid;
-    border-color: aquamarine;
-    background-color: aquamarine;
-}
-
-.sub{
-    background-color: red;
-    padding-right: 38px;  
-
-}
-
-.add {
+.inputs{
+    color: blue;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    padding-left: 44px;
     background-color: yellow;
-    padding-right: 34px;
+    border-radius: 2px;
+   
 }
 
-.div{
-    background-color: orange;
-    padding-right: 29px;
+.block{
+    display: block;
 }
 
-.multi{
-    background-color: cadetblue;
-    padding-right: 34px;
+.bb{
+    padding-block: 22px;
+}
+
+#txt{
+    width: 298px;
+    height: 62px;
+    text-align: end;
+    font-size: 30px;
+    display: block;
+    background-color: lightgreen;
 }
 
 .equal{
-    background-color: green;
-    padding-right: 34px;
+    padding-top: 17px;
+    padding-bottom: 11px;
+    background-color: lawngreen;
+    padding-left: 46px;
+    border-radius: 2px;
 }
 
-.clear{
-    background-color: purple;
-    padding-right: 34px;
+.operators{
+    padding-top: 17px;
+    padding-bottom: 11px;
+    background-color: orange;
+    padding-left: 46px;
+}
+.back{
+    padding-right: 42px;
+    background-color: red;
+    padding-bottom: 11px;
+    padding-top: 17px;
+    border-radius: 2px;
+}
+
+
+#calculator{
+    width: 349px;
+    background-color: green;
+    padding: 2%;
+    height: 331px;
+    border: mediumseagreen;
+    border-style: dotted;
+    border-width: 12px;
 }
